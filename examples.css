@@ -1,0 +1,58 @@
+h4{
+    font-size: 1.2em;
+}
+
+#sapien{
+    max-width: 200px;
+    max-height: 200px;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+#headNav{
+    justify-self: end;
+}
+#logo{
+    display: flex;
+}
+#names{
+    justify-self: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: solid;
+}
+img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.right{
+    display: flex;
+    border: solid;
+    align-items: center;
+}
+.left{
+    display: flex;
+    border: solid;
+    align-items: center;
+}
+
+
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+#footNav{
+    justify-self: end;
+}
+.cR{
+    justify-self: center;
+}

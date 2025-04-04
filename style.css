@@ -1,0 +1,106 @@
+main{
+    font-size: 1.3em;
+}
+#sapien{
+    max-width: 200px;
+    max-height: 200px;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+#headNav{
+    justify-self: end;
+}
+#logo{
+    display: flex;
+}
+#names{
+    justify-self: center;
+}
+#exParaGrow{
+    font-size: 1.5em;
+}
+#top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 100%;
+    border-top: solid;
+}
+#imgInsta{
+    height: 34vh;
+    width: 80%;
+    max-width: 100%;
+    padding-left: 10%;
+}
+#imgYoutube{
+    height: 34vh;
+    width: 80%;
+    max-width: 100%;
+}
+
+#calender{
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    justify-content: center;
+    align-items: center;
+    border-top: solid;
+    border-bottom: solid;
+    height: 40vh;
+}
+#explenation{
+    padding-left: 5%;
+    justify-self: end;
+}
+#conCal{
+    height: 100%;
+    width: 99%;
+    justify-self: end;
+}
+
+#growth{
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    justify-content: center;
+    align-items: center;
+
+}
+#socGraph{
+    height: 100%;
+    width: 99%;
+    justify-self: end;
+}
+
+#redBull{
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    justify-content: center;
+    align-items: center;
+    border-top: solid;
+    border-bottom: solid;
+}
+#socGraph{
+    height: 100%;
+    width: 99%;
+    justify-self: end;
+}
+
+
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+#footNav{
+    justify-self: end;
+}
+.cR{
+    justify-self: center;
+}
